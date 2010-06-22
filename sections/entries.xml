@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c202ef9e77ad">
+  <name handle="entries">Entries</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>Content</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c202ef9e9eae">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>title</element-name>
+      <name>Title</name>
+      <publish-label></publish-label>
+      <text-size>single</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>entries</section>
+    </field>
+    <field guid="4c202ef9ec603">
+      <required>no</required>
+      <show-column>no</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>body</element-name>
+      <name>Body</name>
+      <publish-label></publish-label>
+      <text-size>medium</text-size>
+      <text-formatter>markdown_extra_with_smartypants</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>entries</section>
+    </field>
+    <field guid="4c202f3cef2fc">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <type>date</type>
+      <element-name>date</element-name>
+      <name>Date</name>
+      <publish-label></publish-label>
+      <pre-populate>yes</pre-populate>
+      <section>entries</section>
+    </field>
+    <field guid="4c202f3cf1a7f">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <type>user</type>
+      <element-name>author</element-name>
+      <name>Author</name>
+      <publish-label></publish-label>
+      <section>entries</section>
+    </field>
+    <field guid="4c202f3cf4125">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <type>upload</type>
+      <element-name>photo</element-name>
+      <name>Photo</name>
+      <publish-label></publish-label>
+      <destination>/workspace/assets/images</destination>
+      <validator></validator>
+      <section>entries</section>
+    </field>
+    <field guid="4c202f3d028d8">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <suggestion-source-threshold>2</suggestion-source-threshold>
+      <tag-delimiter>,</tag-delimiter>
+      <type>taglist</type>
+      <element-name>tags</element-name>
+      <name>Tags</name>
+      <publish-label></publish-label>
+      <delimiter>,</delimiter>
+      <validator></validator>
+      <section>entries</section>
+      <suggestion-list-source include-existing="yes"/>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>title</field>
+        <field>body</field>
+        <field>photo</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
+        <field>author</field>
+        <field>date</field>
+        <field>tags</field>
+      </fieldset>
+    </column>
+  </layout>
+</section>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c202ffe1979d">
+  <title>Home</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <data-sources>
+    <item>navigation</item>
+    <item>entries</item>
+  </data-sources>
+  <types>
+    <item>index</item>
+  </types>
+</view>

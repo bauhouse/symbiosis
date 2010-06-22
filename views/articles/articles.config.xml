@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c204d6045a51">
+  <title>Articles</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <url-parameters>
+    <item>entry</item>
+  </url-parameters>
+  <data-sources>
+    <item>navigation</item>
+    <item>entries</item>
+  </data-sources>
+</view>
